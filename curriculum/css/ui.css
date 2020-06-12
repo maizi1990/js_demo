@@ -1,0 +1,30 @@
+#alert-ui{
+  width: 360px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 9999;
+  left: 50%;
+  top: -100px;
+  margin-left: -200px;
+  
+}
+#alert-ui.show{
+  top: 40px;
+  transition:all .2s;
+  -webkit-transition:all .2s;
+  -moz-transition:all .2s;
+  -ms-transition:all .2s;
+  -o-transition:all .2s;
+
+}
+#alert-ui.message-error {
+  background:red;
+  border: 1px solid red;
+}
+#alert-ui.message-success {
+  background: seagreen;
+  border: 1px solid palegreen;
+}
